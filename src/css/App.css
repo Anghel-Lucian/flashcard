@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Georama', sans-serif;
+}
+
+.app-container {
+  background-color: inherit;
+  margin: 50px 200px;
+  box-shadow: #9c9b9c 0px 0px 10px;
+}
+
+.top-section {
+  height: 60px;
+  width: 100%;
+}
+
+.search-bar {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.search-bar div {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar div label {
+  color: #9c9b9c;
+}
+
+.search-bar div select {
+  font-size: 1rem;
+  font-family: 'Georama', sans-serif;
+  outline: none;
+}
+
+.search-bar div input {
+  font-size: 1rem;
+  font-family: 'Georama', sans-serif;
+  outline: none;
+}
+
+.search-bar div button {
+  font-size: 1rem;
+  font-family: 'Georama', sans-serif;
+  outline: none;
+  padding: 10px 15px;
+  background-color: #2b78dd;
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.search-bar div button:hover {
+  background-color: #5194ec;
+  cursor: pointer;
+}
+
+.card-list {
+  padding: 20px 10px;
+  background-color: #e6e5e5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  list-style: none;
+}
+
+.card-list li {
+  background-color: inherit;
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  height: fit-content;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 20px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.card .possible-answers {
+  color: #9c9b9c;
+}
+
+.card .possible-answers .possible-answer {
+  margin: 5px 0px;
+  font-size: 0.9rem;
+}
+
+.flip {
+  /* background-color: #2b78dd; */
+  transition: all 0.3s;
+}
+
+/* IDEA: make a function that toggles front and back depending on what shows of screen. Make it so that the card looks like its rotating, through CSS */
+/* .front {
+  transition: all 0.3s;
+}
+
+.back {
+  transition: all 0.3s;
+} */
