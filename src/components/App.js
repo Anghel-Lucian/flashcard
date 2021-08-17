@@ -3,8 +3,6 @@ import FlashcardList from './FlashcardList';
 import '../css/App.css';
 import { useSearchQuestions } from '../hooks/useSearchQuestions';
 
-// TODO: implement flipping
-
 const App = () => {
   const [category, setCategory] = useState('');
   const [numberOfQuestions, setNumberOfQuestions] = useState(10);
