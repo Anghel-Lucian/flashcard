@@ -117,14 +117,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* .flip { */
-/* background-color: #2b78dd; */
-/* transition: all 0.3s; */
-/* transform: scaleX(0); */
-/* } */
-
-/* IDEA: make a function that toggles front and back depending on what shows of screen. Make it so that the card looks like its rotating, through CSS */
-
 .error-container {
   position: relative;
   top: 0;
